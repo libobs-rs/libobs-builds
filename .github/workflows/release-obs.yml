@@ -29,7 +29,7 @@ jobs:
 
       - name: Run dummyDLL
         run: |
-          .\dummy-dll-generator\dummyDLL.exe out\obs.dll
+          .\dummy-dll-generator\dummyDLL.exe out\obs.dll obs_get_version_string
 
       - name: Rename out.dll to obs-dummy.dll
         run: |
